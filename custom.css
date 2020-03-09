@@ -1,9 +1,36 @@
 ---
 ---
+
+@mixin slight-shadow() {
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.08), 0px 0px 4px rgba(0,0,0,0.05)
 }
 
 .page-header {
 background-color: transparent;
-background-image: url(/assets/image/coi2_blackbg.png);
+background-image: url('/assets/image/coi2_blackbg.png');
 background-size: cover;
 background-position: center center;
+height: auto;
+display: block;
+h1 a {
+    color: #ffffff;
+    &:hover {
+        color: #f9f9f9;
+        text-decoration: none;
+    }
+}
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    .btn {
+background-color: rgba(#ffffff, .75);
+border-color: #ffffff;
+color: #0F291A;
+width: 25%;
+min-width: 200px;
+display: inline-block:
+    }
