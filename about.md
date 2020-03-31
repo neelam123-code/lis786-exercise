@@ -11,3 +11,4 @@ Source: [wikipedia] (https://en.wikipedia.org/wiki/Indian_cuisine)
 <div class="img-right" markdown="1">
 ![Image of indian cuisine](/assets/images/cuisine.jpg)
 </div>
+<div class="clearfix"></div>
