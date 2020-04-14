@@ -35,8 +35,8 @@ layout: default
 <p><a href="{{ indian_cuisine.source }}" target=" _blank">Source</a></p>
 </div>
 <div class="tab-pane" id="weight">
-<p>Coming soon.<p>
+<p>Coming soon.</p>
 </div>
 </div>
-<div>
+</div>
 </div>
