@@ -38,8 +38,20 @@ layout: default
 {% endfor %}
 </div>
 <div class="tab-pane" id="weight">
+{% assign sorted_cuisine = site.indian_cuisine | sort: "category"%}
+{% for indian_cuisine in sorted_cuisines %}
+<div class="cuisine-teaser clearfix">
+<div class="img-left teaser-image">
+<a href="{{ indian_cuisine.url}}" alt="go to the detail page"><img src="{{indian_cuisine.image }}" alt="photo>
+</div>
+<div class="teaser-content">
+<h2><a href="{{ indain_cuisine.url }}" alt=" go to the detail page">{{ indian_cuisine.title }}</a></h2>
+    <p>{{ indian_cuisine.content | truncatewords:44, '...' }}</p>
+<p><small>weight category: <em>{{ indian_cuisine.category }}</em></small></p>
+<p><a href="{{ indian_cuisine.source }}" target=" _blank">Source</a></p>
+</div>
+</div>
+{% endfor %}
     <p>Coming soon.</p>
     </div>
-    </div>
-    </div>
-    </div>
+    
