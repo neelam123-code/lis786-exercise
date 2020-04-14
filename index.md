@@ -34,9 +34,12 @@ layout: default
 <p><small>weight category: <em>{{ indian_cuisine.category }}</em></small></p>
 <p><a href="{{ indian_cuisine.source }}" target=" _blank">Source</a></p>
 </div>
+</div>
+{% endfor %}
+</div>
 <div class="tab-pane" id="weight">
-<p>Coming soon.</p>
-</div>
-</div>
-</div>
-</div>
+    <p>Coming soon.</p>
+    </div>
+    </div>
+    </div>
+    </div>
