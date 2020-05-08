@@ -1,6 +1,6 @@
-title: Indian Cuisines
+title: Indian Cuisine
 theme: jekyll-theme-cayman
 collections:
   indian_cuisines:
   output: true
-layout: indian_cuisine
+  layout: indian_cuisine
