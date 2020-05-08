@@ -1,7 +1,13 @@
-title: Indian Cuisine
+title: Indian Cuisines
 theme: jekyll-theme-cayman
 collections:
-  indian_cuisine:
+  indian_cuisines:
   output: true
-  layout: indian_cuisine
   
+  
+  defaults:
+    - scope:
+      type: "indian_cuisines"
+      values:
+        layout: indian_cuisine
+        
