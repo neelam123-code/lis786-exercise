@@ -3,11 +3,4 @@ theme: jekyll-theme-cayman
 collections:
   indian_cuisines:
   output: true
-  
-  
-  defaults:
-    - scope:
-      type: "indian_cuisines"
-      values:
         layout: indian_cuisine
-        
