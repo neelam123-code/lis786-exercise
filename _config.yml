@@ -2,5 +2,5 @@ title: Indian Cuisine
 theme: jekyll-theme-cayman
 collections:
   indian_cuisine
-  output: true
+  output:true
   layout: indian_cuisine
